@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css_reset.css">
+  <link rel="stylesheet" href="all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
+  <script src="all.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="title">TODO LIST</h1>
+
+      <div class="inputBox">
+        <input class="textBox" type="text" placeholder="新增待辦事項">
+        <button class="submit">+</button>
+      </div>
+
+      <div class="content">
+        <div >
+          <ul class="category_list">
+            <li class="category category_selected" data-category="1">全部</li>
+            <li class="category" data-category="2">待完成</li>
+            <li class="category" data-category="3">已完成</li>
+          </ul>
+        </div>
+
+        <ul class="list"></ul>
+
+        <div class="footer">
+          <div class="count"></div>
+          <button class="delete">清除已完成項目</button>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>
