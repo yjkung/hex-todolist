@@ -1,0 +1,157 @@
+body{
+  font-family: 'Baloo Tamma 2',  NotoSansCJKtc-Regular;
+  color:#333333;
+  background-image: linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%);
+  background-repeat: no-repeat;
+  height: 840px;
+  font-size: 14px;
+} 
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 48px;
+  line-height: 82px;
+  letter-spacing: 8.75px;
+  margin-top:82px;
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.textBox{
+  width: 500px;
+  height: 48px;
+  border-radius: 10px;
+  box-shadow: none;
+  border:none;
+  padding-left: 24px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline:none
+}
+
+.inputBox{
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.submit{
+  /* 內容 */
+  width: 40px;
+  height: 40px;
+  font-family: NotoSansCJKtc-Medium;
+  font-size: 32px;
+  color:white;
+  background-color: #333;
+  border-radius: 10px;
+  border:none;
+  /* 位置 */
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.content{
+  width: 500px;
+  height: 536px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.category_list{
+  display: flex;
+}
+
+.category{
+  box-sizing: border-box;
+  width: 33.3%;
+  padding: 21px 54px;
+  color:#9F9A91;
+  text-align: center;
+  border-bottom: 2px solid #EFEFEF;
+  margin-bottom: 33px;
+  cursor: pointer;
+}
+
+.category:hover{
+  font-weight: bold;
+  color:#333;
+}
+
+.category_selected{
+  font-family:  NotoSansCJKtc-Bold;
+  color:#333;
+  border-bottom: 2px solid #333;
+  font-weight: bold;
+}
+
+.list_item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  letter-spacing: 0.62px;
+  font-size: 16px;
+  margin-bottom: 44px;
+}
+
+.check{
+  margin-left: 19px;
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor:pointer;
+  border:1px solid white
+}
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border:1px solid #333;
+}
+
+.tick{
+  color:#FFD370;
+}
+
+.delete_box{
+  position: absolute;
+  right:12px;
+}
+
+.delete_box img{
+  width: 16px;
+}
+
+.list_done{
+  color: rgba(51,51,51,0.30);
+  text-decoration:line-through;
+}
+
+.delete{
+  font-size: 14px;
+  color: #9F9A91;
+  letter-spacing: 0.7px;
+  border:none;
+  background-color: #fff;
+}
+
+*{
+  border:1px solid black
+}
+
+.footer{
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden{
+  display: none;
+}
