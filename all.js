@@ -129,13 +129,13 @@ list_num();
 // 清除已完成項目
 const delete_all = document.querySelector('.delete')
 const deleteAlL = () =>{
-  let n
-  data.forEach((item, index) => {
-    if (item.done === "done") {
-      n = index
+  let n = data.length
+  for(let i = n -1 ; i >= 0; i--){
+    if (data[i].done === "done") {
+      console.log(data[i].done)
+      data.splice(i, 1)
     }
-    data.splice(index, 1)
-  })
+  }
   showList()
 }
 
